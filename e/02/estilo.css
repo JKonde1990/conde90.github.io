@@ -1,0 +1,138 @@
+body { 
+    background:#2765AD url('body_background.jpg') repeat-x 0 0;
+    color:#000000;
+    padding:0;
+    margin:18px 0;
+    font-size:85%;
+    font-family:"Trebuchet MS", "Sans Serif";
+    
+}
+
+p {
+    padding:5 5 15px 5;
+    margin:5;
+}
+
+#contenedor	{
+    margin:0px auto;
+    text-align:center;
+    width:760px;
+}
+
+#holder {
+    width:100%;
+    padding:20px 20px 5px 20px;
+    background:#FFFFFF;
+    text-align:left;
+}
+
+#logo {
+    background:url('logo.gif') no-repeat 200px 0;
+    border-bottom:1px solid #FFFFFF;
+    padding:5px 30px 20px 0px; 
+}
+
+nav	{
+    padding:5px 0;
+}
+
+nav ul {
+    margin:20;
+    padding:0;
+}
+
+nav li {
+    margin:0;
+    padding:0;
+    display:inline;
+    list-style:none;
+    
+}
+nav a {
+    color:#225799;
+    padding:0 20px 0 0;
+    text-decoration:none; 
+}
+
+#cabezera {
+    background:#FFFFFF url('home_img.jpg') no-repeat 10px 10px;
+    height:200px;
+    padding:10px;
+}
+
+#contenido {
+    padding:20px 10px 0 0; 
+    width:480px;
+    line-height:160%;
+    float:left;
+}
+
+#apartado {
+    float:right;
+    width:250px;
+    padding:20px 0;
+    line-height:140%;
+    text-align:justify; 
+}
+
+.apartado1 {
+    padding:20px 20px 5px 20px;
+    background-color: darkorange;
+    border:1px solid #000000;
+    font-size:90%;
+    margin-bottom:20px;
+}
+
+.apartado2 {
+    padding:20px 20px 5px 20px;
+    background-color: darkorange;
+    border:1px solid #000000;
+    font-size:90%;
+    margin-bottom:20px;
+}
+
+footer {
+    clear:both;
+    width:100%;
+    font-size:70%;
+    background-color: white;
+    padding:20px;
+    text-align:left;
+    border-top:2px solid #2765AF;
+}
+
+#logo h1 {
+    font-weight:normal;
+    font-size:170%;
+    margin:0;
+    padding:0;
+    color:#225799;
+}
+
+footer ul {
+    margin:0;
+    padding:0;
+}
+
+footer li {
+    margin:0;
+    padding:0;
+    list-style:none;
+    display:inline;
+}
+
+footer a {
+    font-weight:bold;
+    color:#000000;
+    padding:0 10px 0 0;
+    text-decoration:underline;
+}
+
+footer a:hover {
+    color:#000000;
+    text-decoration:none;
+}
+
+.clearfix {
+    display:inline-block;
+}
